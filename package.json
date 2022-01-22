@@ -1,0 +1,21 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-all-words.js",
+  "scripts": {
+    "solver": "ts-node solver.ts",
+    "random-word": "ts-node get-random-word.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "colors": "^1.4.0",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "typescript": "^4.5.5"
+  }
+}
